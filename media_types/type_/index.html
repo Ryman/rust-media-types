@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `type_` mod in crate `media_types`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, type_">
+
+    <title>media_types::type_ - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <section class="sidebar">
+        
+        <p class='location'><a href='../index.html'>media_types</a></p><script>window.sidebarCurrent = {name: 'type_', ty: 'mod', relpath: '../'};</script><script defer src="../sidebar-items.js"></script>
+    </section>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Module <a href='../index.html'>media_types</a>::<wbr><a class='mod' href=''>type_</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-2530' class='srclink' href='../../src/media_types/lib.rs.html#323-345' title='goto source code'>[src]</a></span></h1>
+<div class='docblock'><p>Provides the five discrete and the two composite top-level media types.</p>
+</div><h2 id='constants' class='section-header'><a href="#constants">Constants</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.APPLICATION.html'
+                               title='media_types::type_::APPLICATION'>APPLICATION</a></td>
+                        <td class='docblock short'>
+                             <p>The &quot;application&quot; top-level type is to be used for discrete data that
+do not fit under any of the other type names, and particularly for
+data to be processed by some type of application program.</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.AUDIO.html'
+                               title='media_types::type_::AUDIO'>AUDIO</a></td>
+                        <td class='docblock short'>
+                             <p>A top-level type of &quot;audio&quot; indicates that the content contains audio data.</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.IMAGE.html'
+                               title='media_types::type_::IMAGE'>IMAGE</a></td>
+                        <td class='docblock short'>
+                             <p>A top-level type of &quot;image&quot; indicates that the content specifies one
+or more individual images.</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.MESSAGE.html'
+                               title='media_types::type_::MESSAGE'>MESSAGE</a></td>
+                        <td class='docblock short'>
+                             <p>A body of media type &quot;message&quot; is itself all or a portion of some
+kind of message object.</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.MULTIPART.html'
+                               title='media_types::type_::MULTIPART'>MULTIPART</a></td>
+                        <td class='docblock short'>
+                             <p>The &quot;multipart&quot; top-level type is to be used for data consisting of multiple
+entities of independent data types..</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.TEXT.html'
+                               title='media_types::type_::TEXT'>TEXT</a></td>
+                        <td class='docblock short'>
+                             <p>The &quot;text&quot; top-level type is intended for sending material that is
+principally textual in form.</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='constant' href='constant.VIDEO.html'
+                               title='media_types::type_::VIDEO'>VIDEO</a></td>
+                        <td class='docblock short'>
+                             <p>A top-level type of &quot;video&quot; indicates that the content specifies a
+time-varying-picture image, possibly with color and coordinated sound.</p>
+
+                        </td>
+                    </tr>
+                </table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <div id="help" class="hidden">
+        <div>
+            <div class="shortcuts">
+                <h1>Keyboard Shortcuts</h1>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h1>Search Tricks</h1>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>typedef</code> (or
+                    <code>tdef</code>).
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "media_types";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script async src="../../search-index.js"></script>
+</body>
+</html>
